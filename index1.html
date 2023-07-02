@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Frontend Mentor | Multi-step form" />
+    <!-- ---------- -->
+    <!-- FONTS -->
+    <!-- ---------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet" />
+    <link rel="icon"type="image/png"sizes="32x32"href="./assets/images/favicon-32x32.png" />
+
+    <link rel="stylesheet" href="./style1.css" />
+  
+    <title>Creating Multi-step form </title>
+  </head>
+  <body>
+    <main class="main">
+      
+      <div class="step__container">
+        
+        <div class="sidebar">
+          <div class="step__indecater">
+            <div class="indecater__num">1</div>
+            <div class="indecater__text">
+              <p class="subtitle">STEP1</p>
+              <p class="mini__title">Your Info</p>
+            </div>
+          </div>
+          <div class="step__indecater">
+            <div class="indecater__num 2">2</div>
+            <div class="indecater__text">
+              <p class="subtitle">STEP2</p>
+              <p class="mini__title">Select plan</p>
+            </div>
+          </div>
+          <div class="step__indecater">
+            <div class="indecater__num 3">3</div>
+            <div class="indecater__text">
+              <p class="subtitle">STEP3</p>
+              <p class="mini__title">Add-ons</p>
+            </div>
+          </div>
+          <div class="step__indecater">
+            <div class="indecater__num 4">4</div>
+            <div class="indecater__text">
+              <p class="subtitle">STEP4</p>
+              <p class="mini__title">Summary</p>
+            </div>
+          </div>
+        </div>
+        <div class="steps_container">
+          
+            <div class="form" id="form">
+          <h3 class="main_title">Personal Info</h3>
+           <p class="description">Please Provide Your name Email Address and your phone Number</p>
+          </p>
+          <br>
+          <ul class="list">
+            <li class="list__item">
+              <div class="input__label">
+                <p class="label">Name</p>
+                <p class="warning"></p>
+              </div>
+              <input type="text"name="userName"class="input"placeholder="e.g. Priyanka Kumari"required />
+            </li>
+            <li class="list__item">
+              <div class="input__label">
+                <p class="label">Email Address</p>
+                <p class="warning"></p>
+              </div>   
+              <input type="email"name="email"class="input"placeholder="e.g. abc123@gmail.com"required />
+          </li>
+          <li class="list__item">
+            <div class="input__labe">
+              <p class="label">Phone Number</p>
+              <p class="warning"></p>
+            </div>
+            <input type="number"name="phone"class="input"placeholder="e.g. +91 1 234 567 890"required />
+          </li>
+        </ul>
+         <div class="button__container">
+          <button class="button show" id="show-button" >
+            <button type="submit" class="button next__button" id="next-button"> 
+            Next Step
+          </button>
+        </div>
+        </div>
+        </div>
+      </main>
+    
+   </body>
+ </html>
+        
